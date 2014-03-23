@@ -1,11 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.glasswareXE12"
+    package="com.stanzheng.wifiplease"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="15" />
+    <permission>
+        <meta-data />
+    </permission>
 
     <application
         android:allowBackup="true"
@@ -17,7 +20,7 @@
             android:required="true" />
         
         <activity
-            android:name="com.example.glasswareXE12.main.MainActivity"
+            android:name="com.stanzheng.wifiplease.main.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />

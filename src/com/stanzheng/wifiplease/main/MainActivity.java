@@ -1,4 +1,4 @@
-package com.example.glasswareXE12.main;
+package com.stanzheng.wifiplease.main;
 
 import com.google.android.glass.app.Card;
 import com.google.android.glass.touchpad.GestureDetector;
