@@ -6,9 +6,6 @@
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="15" />
-    <permission>
-        <meta-data />
-    </permission>
 
     <application
         android:allowBackup="true"
