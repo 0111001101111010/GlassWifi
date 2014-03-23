@@ -1,26 +1,34 @@
-Google Glass (XE12) Template
+Glass Wifi 
 =================
+<b> Intro 
+-----
+Helps you connect to wifi at public spots
 
-Google Glass Boilerplate Template (Built for ADT)
+Install
+---
+adb install wifiplease.apk
 
-<b>Features:
- - Registers Glassware with Glass Menu ("Test my App")
- - Registers Glassware with Glass Voice Command List ("Test my App")
- - Sets Up Static Card
- - Imports all Necessary Packages
- - Designed to Work with XE12
- 
-<b>Use as the base framework for Glassware development on XE12
 
-<b>Notable File Location:
- - /res/values/strings.xml
-  - Global Variables for 'app_name', and 'glass_voice_triggers' These drive the voice commands and labeling of your Glassware in the Application menu.
- - /res/xml/voice_trigger.xml
-  - Set voice trigger keyword - This will inherit our globally defined variable from the strings.xml file
- - /AndroidManifest.xml
-  - The Activity tag contains Application name definition (based upon globally defined names) and package/meta-data information 
+use
+---
 
-<b>Carmine Valentino
+by voice - ok, glass wifi please
+
+navigate to glass
+
+scroll to the card. "Wifi please". Enjoy
+
+#TODO
+----
+Parse the browser request and send a post
+Detect if internet is on 
+
+License 
+---
+MIT
+
+
+<b> Thanks Carmine Valentino template 
  - <a href="mailto:cvalentino3@gmail.com">cvalentino3@gmail.com</a><br >
  - <a href="http://www.twitter.com/cvalentino3">Twitter</a><br >
  - <a href="http://plus.google.com/+CarmineValentinoIII">Google +</a><br >
