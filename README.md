@@ -2,7 +2,11 @@ Glass Wifi
 =================
 <b> Intro 
 -----
-Helps you connect to wifi at public spots
+Helps you connect to wifi at public spots. Commonly public wifis make you agree to their terms of service or hit some sort of button. In the age of wearable devices with limited or no view screens its impractical. 
+
+Connect to the public wifi service. Open the App, Navigate to Confirming or Connecting your wifi. 
+
+Created at Pearlhacks 3/23/2014
 
 Install
 ---
